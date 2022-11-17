@@ -1,0 +1,746 @@
+$color-principal: rgb(224, 37, 37);
+$color-secundario: white;
+$color-personal: rgb(178, 178, 74);
+
+.clo {
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+justify-content: space-evenly;
+align-content: flex-end;
+background-color: $color-principal;
+border-radius: 10px;
+padding-left: 15px;
+border: solid black 2px;
+
+}
+
+.logo {
+    height: 70px;
+    width: 90px;
+    position: relative;
+    top: -80px;
+    right: -15px;
+    
+}
+
+.clo1 {
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgb(121, 115, 115);
+    color: $color-secundario;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clo2 {
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgb(121, 115, 115);
+    color: $color-secundario;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clo3 {
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgb(121, 115, 115);
+    color: $color-secundario;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clo4 {
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgb(121, 115, 115);
+    color: $color-secundario;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* EFECTOS HEADER */
+
+.clo1:hover {
+    background-color:$color-personal;
+}
+
+.clo2:hover {
+    background-color: $color-personal;
+}
+
+.clo3:hover {
+    background-color:$color-personal;
+}
+
+.clo4:hover {
+    background-color: $color-personal;
+}
+
+/* SEGUNDA SECCION */
+
+.welcome { 
+    
+    width: 1100px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://d38fgd7fmrcuct.cloudfront.net/1_3ululy3vekegiguas4xq4.jpg);
+}
+
+
+
+.bebidas {
+    height: 210px;
+    width: 260px;
+    position: relative;
+    right: -12%;
+    top: -20%;
+    border: solid 3px black;
+}
+
+.bebidas:hover {
+    height: 210px;
+    width: 270px;
+    transition: width 4s, height 3s;
+    transform: scale(1,1.2);
+}
+
+.seccion {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.beer {
+    height: 210px;
+    width: 260px; 
+    position: relative;
+    right: -12%;
+    top: -20%;
+    border: solid 3px black;
+}
+
+.beer:hover {
+    height: 210px;
+    width: 270px;
+    transition: width 4s, height 3s;
+    transform: scale(1,1.2);
+    
+}
+
+.food {
+    height: 210px;
+    width: 260px; 
+    position: relative;
+    top: -20%;
+    right: -12%;
+    border: solid 3px black;   
+}
+
+.food:hover {
+    height: 210px;
+    width: 270px;
+    transition: width 4s, height 3s;
+    transform: scale(1,1.2);
+}
+
+.loren {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        text-align: left;
+        padding: 16px;
+        font-style: italic;
+        color:$color-secundario;
+        text-align: center;
+        position: relative;
+        top: -28%;
+    border-radius: 10px;
+    background-color: grey;
+    width: 315px;
+    height: 46px;
+    border: solid black 2px;
+    
+}
+
+.t1 {
+    color: $color-secundario;
+    position: relative;
+    right: -26%;
+    top: -59%;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 120px;
+    height: 42px;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.t2 {
+    color: $color-secundario;
+    text-align: center;
+    top: -59%;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: grey;
+    border: solid 2px black;
+    width: 120px;
+    height: 45px;
+    position: relative;
+    right: -32%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.t3 {
+    color: $color-secundario;
+    text-align: center;
+    top: -59%;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 120px;
+    height: 46px;
+    position: relative;
+    right: -27%;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foodie {
+    height: 70px;
+    width: 20px;
+}
+
+.lista {
+    
+    margin: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: $color-secundario;
+    list-style: none;
+    bottom: -480px;
+    align-items: center;
+    }
+
+    .footer {
+    background-color: $color-principal;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    border: solid 2px black;
+    border-radius: 10px;
+    }
+
+    .logo2 {
+    height: 70px;
+    width: 90px;
+    }
+
+    .body{
+        background: url(https://thumbs.dreamstime.com/b/fondo-gris-claro-124369118.jpg);
+        }
+
+/* pagina de CONTACTO */
+
+.RESERVA {
+
+    color: $color-secundario;
+    background-color: $color-principal;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 430px;    
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-group {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 15px;
+}
+
+.email {
+    color: $color-secundario;
+    background-color: grey;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 130px;    
+    height: 30px;
+    line-height: 31px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.email1 {
+    color: $color-secundario;
+    background-color: grey;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 230px;    
+    height: 30px;
+    line-height: 31px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 38px;
+}
+
+
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.fotos2 {
+    display: block;
+}
+
+
+.fotog  {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.fotoh {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.fotoi {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.fotoj {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.fotok {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.fotol {
+    height: 140px;
+    width: 280px;
+    border: solid 2px black;
+}
+
+.platos-fuertes {
+    text-align: center;
+    padding: 10px;
+    width: 290px;
+    position: relative;
+    right: -40%;
+    border-radius: 10px;
+    background-color: rgb(190, 190, 87);
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* pagina de MENU */
+
+.menu {
+    width: 1100px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://thumbs.dreamstime.com/b/%E7%83%A4%E4%B8%89…6%87%E9%B1%BC%E5%92%8Cwhtie%E9%85%92-51797543.jpg);
+}
+
+.subtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.body2 {
+    background: url(https://www.exportdesign.it/wp-content/uploads/2021/01/pannello-lengo-doghe-grigio.jpg);
+}
+
+.body3 {
+    background: url(https://i.pinimg.com/736x/f9/ab/92/f9ab929dbdf2eac3c25d44e3115dbbe1.jpg);
+}
+
+.des-menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* pagina de HISTORIA */
+.historia {
+    width: 1100px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://thetwirlingtraveler.nl/wp-content/uploads/2020/11/IMG_3324-scaled.jpg);
+}
+
+.milocho {
+    border: solid black 2px;
+    border-radius: 40px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 15px;
+    margin: 15px;
+    
+}
+
+.milocho:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    filter: sepia(60%);
+}
+
+
+
+.historio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.historie {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px black;
+    font-style: italic;
+    border-radius: 20px;
+    text-align: center;
+    height: 319px;
+    padding: 10px;
+    background: url(https://thumbs.dreamstime.com/b/fondo-gris-claro-124369118.jpg);
+}
+
+.nuestre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(https://thumbs.dreamstime.com/b/fondo-gris-claro-124369118.jpg);
+    border: solid black 2px;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    right: -450px;
+}
+
+/* MEDIA QUERIES celular */
+
+@media screen and (max-width: 576px) {
+    .nuestre {
+    right: -115px ;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .historio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .milocho {
+    position: relative;
+    right: -5%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .historie {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: solid 2px black;
+        font-size: 12px;
+        font-style: italic;
+        border-radius: 20px;
+        text-align: center;
+        height: 319px;
+        padding: 10px;
+        background: url(https://thumbs.dreamstime.com/b/fondo-gris-claro-124369118.jpg);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .historia {
+    width: 500px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://thetwirlingtraveler.nl/wp-content/uploads/2020/11/IMG_3324-scaled.jpg);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .seccion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+    
+    } 
+
+@media screen and (max-width: 576px)  {
+    .clo {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .welcome {
+    width: 500px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://d38fgd7fmrcuct.cloudfront.net/1_3ululy3vekegiguas4xq4.jpg);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .loren {
+        width: 475px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+    height: 100px;
+    width: 140px;
+    position: relative;
+    top: -180px;
+    right: -195px;
+    
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bebidas {
+        height: 210px;
+        width: 260px;
+        position: relative;
+        margin: 18px;
+        right: 0%;
+        top: -80%;
+        border: solid 3px black;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .beer {
+        height: 210px;
+        width: 260px;
+        position: relative;
+        right: 0%;
+        margin: 18px;
+        top: -60%;
+        border: solid 3px black;
+    }
+        
+    }
+
+@media screen and (max-width: 576px) {
+    .food {
+        height: 210px;
+        width: 260px;
+        position: relative;
+        right: 0%;
+        margin: 18px;
+        top: 100%;
+        border: solid 3px black;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .loren {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .t1 {
+    position: absolute;
+    right: 7%;
+    top: 106%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .t2 {
+    position: absolute;
+    right: 7%;
+    top: 136%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .t3 {
+    position: absolute;
+    right: 7%;
+    top: 169%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contenedor-presiona {
+    display: grid;
+    grid-template-rows: auto auto ;
+    padding: 36px;
+    padding-top: 0px;
+    
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .primerasede {
+    height:206px;
+    border: solid black 2px;
+    width: 207px;
+    border-radius: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+    width: 500px;
+    position: relative;
+    height: 400px;
+    right: -4%;
+    line-height: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: $color-secundario;
+    background: url(https://thumbs.dreamstime.com/b/%E7%83%A4%E4%B8%89…6%87%E9%B1%BC%E5%92%8Cwhtie%E9%85%92-51797543.jpg);
+    }
+}
+
+/* PAGINA DE SEDES */
+
+.primerasede {
+    height:226px;
+    border: solid black 2px;
+    width: 297px;
+    border-radius: 18px;
+}
+
+.primerasede:hover {
+    height:226px;
+    border: solid black 2px;
+    width: 297px;
+    filter: saturate(180%);
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    border-radius: 18px;
+}
+
+.seccion-uno {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 0px;
+    
+}
+
+
+.presiona {
+    border: solid black 2px;
+    width: 100px;
+    height: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: $color-personal;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.seccion-dos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.sedeprincipal {
+    background-color: $color-personal;
+    border: solid 2px black;
+    text-align: center;
+    width: 270px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+.contenedor-presiona {
+    display: grid;
+    grid-template-rows: auto auto ;
+    justify-content:center;
+}
+
+
+
